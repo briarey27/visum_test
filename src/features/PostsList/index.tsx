@@ -59,7 +59,7 @@ export const PostsList = () => {
       <Grid container spacing={2} alignItems="stretch">
         {posts.map((post) => {
           return (
-            <Grid key={post.id} size={{ xs: 12, md: 4 }}>
+            <Grid key={post.id} size={{ xs: 12, md: 2 }}>
               <PostCard post={post} />
             </Grid>
           );
