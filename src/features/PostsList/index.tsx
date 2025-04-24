@@ -55,7 +55,7 @@ export const PostsList = () => {
 
   return (
     <div>
-      <div ref={previousRef} style={{ height: 20 }} />
+      <div ref={previousRef} style={{ height: 18 }} />
       <Grid container spacing={2} alignItems="stretch">
         {posts.map((post) => {
           return (
